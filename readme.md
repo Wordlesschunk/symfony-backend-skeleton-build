@@ -10,13 +10,13 @@ Within this repo is a docker stack that is perfect for use when developing a sym
 ## Building the Containers
 
 ```
-docker-coompose up -d --build
+docker-compose up -d --build
 ```
 
 ## Interacting with the Containers
 
 ```
-docker-coompose up -d
+docker-compose up -d
 docker-compose down
 docker-compose restart
 ```
